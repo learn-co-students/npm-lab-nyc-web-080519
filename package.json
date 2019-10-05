@@ -1,0 +1,26 @@
+{
+  "name": "node-package-manager-lab",
+  "version": "1.0.0",
+  "description": "node package manager lab",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aresnik11/npm-lab-nyc-web-080519.git"
+  },
+  "author": "Amy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aresnik11/npm-lab-nyc-web-080519/issues"
+  },
+  "homepage": "https://github.com/aresnik11/npm-lab-nyc-web-080519#readme",
+  "dependencies": {
+    "learn-browser": "^0.1.24",
+    "moment": "^2.24.0"
+  }
+}
